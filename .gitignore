@@ -1,0 +1,47 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env
+.env
+.env.local
+client/.env
+server/.env
+
+# Build outputs
+client/dist/
+client/.vite/
+server/build/
+server/dist/
+
+# IDE/editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+ehthumbs.db
+
+# Coverage & test
+coverage/
+.nyc_output/
+
+# Logs
+logs/
+*.log
+*.csv
+*.out
+*.pid
+
+# Cache
+.cache/
+client/node_modules/
+server/node_modules/
+
+
